@@ -1,0 +1,66 @@
+
+
+*{
+  margin: auto;
+  padding: 0%;
+
+}
+body{
+  background: url("asanoha-400px.png");
+}
+nav{
+  background-color: #69408c;
+  width: 85%;
+  height: 74px;
+  margin: auto;
+  outline: 1px solid black;
+  text-align: center;
+  font-size:20px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  margin: 50px;
+}
+nav li:hover > a{
+  color: #31302f;
+}
+nav li {
+  display: inline-block;
+  padding: 25px;
+}
+nav li:hover{
+background-color: #d5d4d1;
+transition: .5s;
+}
+.text{
+  background-color: #d5d4d1;
+  width: 85%;
+  padding: 30px;
+  height: 250px;
+  margin: auto;
+  text-align: center;
+  outline: 1px solid black;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+.content{
+  background-color: #d5d4d1;
+  width: 85%;
+  height: 350px;
+  outline: 1px solid black;
+  margin: auto;
+  text-align: center;
+}
+.column{
+  float: left;
+  width: 25%;
+}
+.banner{
+  width: 1564px;
+  height: 350px;
+  margin: auto;
+  outline: 1px solid black;
+  text-align: center;
+}
+
